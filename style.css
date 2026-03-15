@@ -818,8 +818,8 @@ ul {
   .about__stats {
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
-    gap: 0;
+    justify-content: flex-start;
+    gap: 24px;
     max-width: 70vw;
     margin-left: auto;
     margin-right: auto;
@@ -828,7 +828,7 @@ ul {
 
   .stat {
     flex: 1;
-    text-align: center;
+    text-align: left;
     min-width: 0;
   }
 
@@ -837,7 +837,7 @@ ul {
   }
 
   .stat__label {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .expect__list li {
